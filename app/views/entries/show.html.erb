@@ -1,9 +1,18 @@
 
+<div class="columns is-centered mt-6">
 
+<div class="card">
+<div class="card-content">
+<div class="content">
+
+<% content_for :title do%>
+  <%= @entry.meal_type %> &ndash; <%= DateTime.now.to_s(:nice_date)%> 
+<% end %>
 <p>
   <strong>Meal type:</strong>
   <%= @entry.meal_type %>
 </p>
+
 
 <p>
   <strong>Calories:</strong>
@@ -25,5 +34,9 @@
   <%= @entry.fats %>
 </p>
 
-<%= link_to 'Edit', edit_entry_path(@entry) %> |
-<%= link_to 'Back', entries_path %>
+<%= link_to 'Edit', edit_entry_path(@entry), class:"button is-primary" %> 
+<%= link_to 'Back', entries_path, class:"button is-link" %>
+</div>
+</div>
+</div>
+</div>

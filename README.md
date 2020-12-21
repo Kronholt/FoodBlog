@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple meal tracking application developed in Ruby. 
 
-Things you may want to cover:
+User can create meal entries -  entering the name, calories, proteins, carbs, and fats for each meal
+Application has basic CRUD operations on the meal entries. 
 
-* Ruby version
+Most recent feature - archives Controller and view which allows the user to view all entries based on day entered
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Next feature to implement - data validation 

@@ -6,4 +6,4 @@ FoodBlog allows the user to conveniently enter and view meals for each day, assi
 
 
 
-![Screenshot](dashboard.png)
+![Screenshot](demoImages/dashboard.png)
